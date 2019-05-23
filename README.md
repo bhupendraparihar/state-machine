@@ -4,7 +4,7 @@ Javascript implementation of State Machine
 
 ![alt text](https://github.com/bhupendraparihar/state-machine/blob/master/state-machine-question.png)
 
-<code>
+<pre>
   var fsm = new StateMachine({
     init: 'solid',
     transitions: [
@@ -20,4 +20,4 @@ Javascript implementation of State Machine
       onCondense: function() { console.log('I condensed') }
     }
   });
-  </code>
+  </pre>
